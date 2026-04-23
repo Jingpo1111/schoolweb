@@ -1,0 +1,2401 @@
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Course Portal</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/assets/logo school.png" type="image/png">
+    
+</head>
+<body class="dashboard-page">
+    <div id="dashboard-section" class="container">
+        <header class="header">
+            <div class="header-container">
+                <div class="logo">
+                    <img src="/assets/logo school.png" alt="School logo" />
+                </div>
+                <div class="title">
+                    <p class="eyebrow">Institute de Technologie du Cambodge</p>
+                    <h1>Technology Course Portal</h1>
+                </div>
+            </div>
+            <div class="header-actions">
+                <div class="session-pill">
+                    <span class="session-label">Signed in as</span>
+                    <strong id="session-user">Student</strong>
+                </div>
+                <button id="logout" class="btn logout-btn">Logout</button>
+            </div>
+        </header>
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+            <a href="https://www.facebook.com/jingpo.phai.1?mibextid=ZbWKwL">Contact me</a> > <span>On my school</span>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search courses..." onkeyup="searchProducts()">
+            <button class="search-button">🔍</button>
+        </div>
+        <div id="searchResults" class="search-results"></div> <!-- New div for search results -->
+        <!-- Main Content -->
+        <main>
+            <div class="logo-center">
+                
+                <h2>និស្សិតនៅសាលាតិចណូ(I1 - I5)</h2>
+            </div>
+            <div class="categories">
+                <details>
+                    <summary>I1</summary>
+                    <ul>
+                        <details>
+                            <summary><a href="#" >History</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="History Assignment 1"><a href="https://drive.google.com/file/d/1LUSmef2W9R3flFPVXpKAn0xKpCXTtb17/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="History Assignment 2"><a href="https://drive.google.com/file/d/1QACXtrdkWUryH1x2lrR-XXqxUbvPJFBU/view?usp=drive_link">Assignment 2</a></li>
+                            </ul>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">Phylosophy</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="Phylosophy Assignment 1"><a href="https://drive.google.com/file/d/1v-zJvo0xr9KPdHSCtctVa81r6oLTCwb_/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="Phylosophy Assignment 2"><a href="https://drive.google.com/file/d/1yNvau08Y1ol1xGIWcd6e5PAjLit9HRq5/view?usp=drive_link">Assignment 2</a></li>
+                                
+                                <li class="product-card" data-name="Phylosophy Slide"><a href="https://drive.google.com/file/d/1h9cCZ2uStnMXcpYKGkSmlAjVTmA76-2o/view?usp=sharing">Slide</a></li>
+                                <li class="product-card" data-name="Phylosophy Exam final"><a href="https://drive.google.com/file/d/157z6V5-GoWDDn36Rcp5pLjwPz1k7DO1r/view?usp=drive_link">Exam final</a></li>    
+                            </ul>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">IT</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="IT Assignment 1"><a href="https://drive.google.com/file/d/1AW-s2vfbedeIhkIhpOv7rj1U9x74GOO_/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="IT Assignment 2"><a href="https://drive.google.com/file/d/1Bc_GMlvs2D9lsNYcuGypWgLe_PUwHxs8/view?usp=sharing">Assignment 2</a></li>
+                                <li class="product-card" data-name="IT Assignment 3"><a href="https://drive.google.com/file/d/1pAwTOGMP9ulaJkUqGl1wJWcew5gXztdQ/view?usp=sharing">Assignment 3</a></li>
+                                <li class="product-card" data-name="IT Assignment 4 "><a href="https://drive.google.com/file/d/1J696_0oOVrrsThkjVm2L_KyI8VEXw4PV/view?usp=sharing">Assignment 4</a></li>
+                                <li class="product-card" data-name="IT Assignment 5"><a href="https://drive.google.com/file/d/1V0kU2vnkYyWXVIyjlAOfvR8ys3Tt7I0C/view?usp=sharing">Assignment 5</a></li>
+
+                                <li class="product-card" data-name="IT Assignment 6"><a href="https://drive.google.com/file/d/1iGcuVkb0zDMRX-Sn7aS8dcl8ll6cs_VN/view?usp=drive_link">Assignment 6</a></li>
+                                <li class="product-card" data-name="IT Assignment 7"><a href="https://drive.google.com/file/d/1bDVBlrUKC956uKl45oftsWbbXv-cWOpl/view?usp=drive_link">Assignment 7</a></li>
+                                <li class="product-card" data-name="IT Assignment 8"><a href="https://drive.google.com/file/d/1Ro_vtyHR-oa792pYi63Fb4EdbHsihZTx/view?usp=drive_link">Assignment 8</a></li>
+                                <li class="product-card" data-name="IT Assignment 9"><a href="https://drive.google.com/file/d/1MXSUF6oPEbg-KpmfYzLOzktnE5pqG8O2/view?usp=drive_link">Assignment 9</a></li>
+                                <li class="product-card" data-name="IT Assignment 10"><a href="https://drive.google.com/file/d/18LitKBRyTwfsSezLI2H2GSjPNfq1GCQc/view?usp=drive_link">Assignment 10</a></li>
+                                <li class="product-card" data-name="IT Assignment 11"><a href="https://drive.google.com/file/d/1u-YWxsOH21037gGEPKWKAr7f1ImUllUk/view?usp=sharing">Assignment 11</a></li>
+                                <li class="product-card" data-name="IT Assignment 12"><a href="https://drive.google.com/file/d/1u-YWxsOH21037gGEPKWKAr7f1ImUllUk/view?usp=drive_link">Assignment 12</a></li>
+                                <li class="product-card" data-name="IT Assignment 13"><a href="https://drive.google.com/file/d/1u4i6Yr0BwflbgL1mpT6si97gqD5JkwSF/view?usp=drive_link">Assignment 13</a></li>
+                                <li class="product-card" data-name="IT Assignment 14"><a href="https://drive.google.com/file/d/1Qng1ZQbhiaUMhs1NvBDxvkGFqh0dz2J8/view?usp=drive_link">Assignment 14</a></li>
+                                <li class="product-card" data-name="IT Assignment 15"><a href="https://drive.google.com/file/d/1gGnmJNnZD4ML99K5lgZ0LkYYSRORHZeH/view?usp=sharing">Assignment 15</a></li>
+                                <li class="product-card" data-name="IT Assignment 16"><a href="https://drive.google.com/file/d/1x6rpRbDE0iil8LBeazI1jm9D_p-Fz6gL/view?usp=drive_link">Assignment 16</a></li>
+                                <li class="product-card" data-name="IT Assignment 17"><a href="https://drive.google.com/file/d/1A3es7brNorVvjhlDX2k0rov9EERLlKLH/view?usp=drive_link">Assignment 17</a></li>
+                            </ul>
+                        </details>
+
+                    </ul>
+
+                    <ul>
+                        <details>
+                            <summary><a href="#">Environment</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="Environment Assignment 1"><a href="https://drive.google.com/file/d/1yWA8P8FIWnC3r07dwOYyZTd8hS1C9tTu/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="Environment Assignment 2"><a href="https://drive.google.com/file/d/1osOGobh2e7TbFSjccYU7twVkCoR6Mq0p/view?usp=sharing">Assignment 2</a></li>
+                                <li class="product-card" data-name="Environment Assignment 3"><a href="https://drive.google.com/file/d/1WvmbKEI8RLs4b1WCrkvshJiUSxn3wno0/view?usp=sharing">Assignment 3</a></li>
+                                <li class="product-card" data-name="Environment Slide"><a href="https://drive.google.com/file/d/1PvwWwLherG7sfxkDwO7-pCQ8Skl15xC2/view?usp=sharing">Slide</a></li>
+                                
+                                </ul>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">Mechanic</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="Mechanic Assignment 1"><a href="https://drive.google.com/file/d/1PQcYx7Esd9VaJ35HsnQy3bmS5IXuvjkq/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="Mechanic TP 1"><a href="https://drive.google.com/file/d/1R9oLZwdA8K20bahK5YHmCL381HuD4fv_/view?usp=sharing">TP 1</a></li>
+                                <li class="product-card" data-name="Mechanic TP 2"><a href="https://drive.google.com/file/d/14ienbFgS8bh5Vnxkc1Si01OX-ENzViz1/view?usp=drive_link">TP 2</a></li>
+                                <li class="product-card" data-name="Mechanic TP 3"><a href="https://drive.google.com/file/d/1lkSLT3U4xfj9Cy1qv28jKSv77DUjWbDs/view?usp=drive_link">TP 3</a></li>
+                                <li class="product-card" data-name="Mechanic TP 4"><a href="https://drive.google.com/file/d/1QJx7FS64R4Sctw7eVcHU2DHk2uHgxRQ1/view?usp=drive_link">TP 4</a></li>
+                                
+                            </ul>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">Accounting</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="Accounting Assignment 1"><a href="https://drive.google.com/file/d/167XPKwpiqiU7PBCIxE0McSXlXWJrZ2ZT/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="Accounting Assignment 2"><a href="https://drive.google.com/file/d/1pWOGbPAUTPiNGcz0wOEuTTal0HaU5CQN/view?usp=sharing">Assignment 2</a></li>
+                                <li class="product-card" data-name="Accounting Assignment 3"><a href="https://drive.google.com/file/d/1duV2T0r9O8CRLbJYUqgVxp3oA3tN5eOV/view?usp=sharing">Assignment 3</a></li>
+                                <li class="product-card" data-name="Accounting Assignment 4"><a href="https://drive.google.com/file/d/1kdynfUTTBNKhdek7gCXqfw8WT_1TbJQg/view?usp=sharing">Assignment 4</a></li>
+                                <li class="product-card" data-name="Accounting Assignment 5"><a href="https://drive.google.com/file/d/1USyLNOtSpNsz9RyDw_a_0HdpJ-lOanQN/view?usp=sharing">Assignment 5</a></li>
+                                <li class="product-card" data-name="Accounting Slide 1"><a href="https://docs.google.com/presentation/d/1OgmT69BnDQJ-fTe1HePOBW5WsLhUTnGedctlPEMc0NU/edit?usp=drive_link">Slide 1</a></li>
+                                <li class="product-card" data-name="Accounting Slide 2"><a href="https://docs.google.com/presentation/d/1hlGr9eSAexhk9A84bfSrpAKNHAGAidELB0UdM5LIt4o/edit?usp=drive_link">Slide 2</a></li>
+                                <li class="product-card" data-name="Accounting Slide 3"><a href="https://docs.google.com/presentation/d/1c3rl68x1c64_ZsT-1Xwc2EI-Ck7FDm6ysD7cXoZuVGM/edit?usp=sharing">Slide 3</a></li>
+                                <li class="product-card" data-name="Accounting Slide 2"><a href="https://docs.google.com/presentation/d/1uZtUnd-0lGCckjf6QUTqCAgNVAcXHBAMUHt5K6MbfW8/edit?usp=sharing">Slide 2</a></li>
+                                <li class="product-card" data-name="Accounting Slide 2"><a href="https://docs.google.com/presentation/d/1j5ZImoPZ9d0P-1libVAdqMT154GKJ3cTRtA4w8xOefw/edit?usp=sharing">Slide 2</a></li>
+                                <li class="product-card" data-name="Accounting Slide 2"><a href="https://docs.google.com/presentation/d/1S7E6_zlxQQKWN-3hv8zh0yrWcBqgdn95CXPisiBOYqk/edit?usp=sharing">Slide 2</a></li>
+                            
+
+                            </ul>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">French</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="French Assignment 1"><a href="https://drive.google.com/file/d/11hx5fRb2dqzBk3UC_sSrOQrzL2129toh/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="French Assignment 2"><a href="https://drive.google.com/file/d/1oBKRFLqBHQNlPuodpeLw4c3vsmLi4B5X/view?usp=sharing">Assignment 2</a></li>
+                            </ul>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">Calculus1</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="Calculus1 Assignment 1"><a href="https://drive.google.com/file/d/1xcLiL9yTHhOOWNpiNnJhxvbsIoZjsTNw/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="Calculus1 review"><a href="https://drive.google.com/file/d/1xcLiL9yTHhOOWNpiNnJhxvbsIoZjsTNw/view?usp=sharing">Review</a></li>
+                                <li class="product-card" data-name="Calculus1 Final"><a href="https://drive.google.com/file/d/1_hbcluZ6pOKExM4XY2wck49b0cjyqC_v/view?usp=sharing">Final</a></li>
+                                <li class="product-card" data-name="Calculus1 head"><a href="https://drive.google.com/file/d/17ebT1fVn7YbDtbJ5hetzWZl3ZCHNGkUH/view?usp=sharing">head</a></li>
+                                </ul>
+                        </details>
+                    </ul>
+
+                </details>
+                <details>
+                    <summary>I2</summary>
+                    <ul>
+                        <details>
+                            <summary><a href="#">IT(Data strcture I)</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="IT-I2 Assignment 1"><a href="https://drive.google.com/file/d/1ZkXazLCilbKrChFh_HlXBLdjaU2XuvdU/view?usp=sharing">Assignment 1</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 2"><a href="https://drive.google.com/file/d/180bO0F4a2esSxAvyJHZR9wLktde147SI/view?usp=sharing">Assignment 2</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 3"><a href="https://drive.google.com/file/d/1pJ7Qs8T1c7CGtkHb8BOwQL-3EFfur0_D/view?usp=sharing">Assignment 3</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 4 "><a href="https://drive.google.com/file/d/1Llr2PesfcYHIEP7r1YCFdMUdu1jOhK9j/view?usp=sharing">Assignment 4</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 5"><a href="https://drive.google.com/file/d/1ziYnMtAX1AHhPi8ZTGVY1JB-rGwY5ulf/view?usp=sharing">Assignment 5</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 6"><a href="https://drive.google.com/file/d/1vzyEdfWcTdu2oTVm6HEBNOqTAlMhlyHt/view?usp=sharing">Assignment 6</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 7"><a href="https://drive.google.com/file/d/1UvKrVVxiF9a_Oi2Lfi95b5ymyoFY5qAh/view?usp=sharing">Assignment 7</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 8 "><a href="https://drive.google.com/file/d/1qy5Dy_xc8CCGUj-KzftsYzAbQ16Uxq0p/view?usp=sharing">Assignment 8</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 9"><a href="https://drive.google.com/file/d/1D34XoVCbcSXbp1wVpYFB4Wxj9FJn4CmL/view?usp=sharing">Assignment 9</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 10"><a href="https://drive.google.com/file/d/16SVjY6o4mRun7USQTMchGYaMweAeiaNb/view?usp=drive_link">Assignment 10</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 11"><a href="https://drive.google.com/file/d/1VOT1PNAwVNh6MyppBlXRLXO9fDQI3t5F/view?usp=drive_link">Assignment 11</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 12"><a href="https://drive.google.com/file/d/12oTS3CGS3sAbPsWNoJOYZeIql05w4tv8/view?usp=drive_link">Assignment 12</a></li>
+                             </ul>
+                        </details>
+
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">IT(Data strcture II)</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="IT-I2 Assignment 1"><a href="https://drive.google.com/file/d/1iw33ep7UNbEsJZoMOtTA_5XdDdDRHe7x/view?usp=drive_link">Assignment 1</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 2"><a href="https://drive.google.com/file/d/1S613uHMLcVQwEKDW22fS4jtHV3IZdL0H/view?usp=drive_link">Assignment 2</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 3"><a href="https://drive.google.com/file/d/1eAbDQso1JZM88NRT9CDux_ud9sfTQw4v/view?usp=drive_link">Assignment 3</a></li>
+                                <li class="product-card" data-name="IT-I2 Assignment 4 "><a href="https://drive.google.com/file/d/1NYkCcKoCqYJnn9PDvphUKB6RRea-ngC4/view?usp=drive_link">Assignment 4</a></li>
+                        
+                            </ul>
+                        </details>
+
+                    </ul>
+
+
+                    
+                    <ul>
+                        <details>
+                            <summary><a href="#">Probability</a></summary>
+                            <details>
+                                <summary><a href="#">Cours</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Ch1"><a href="https://drive.google.com/file/d/1xLnKf0TeDhbfZYoU1xBDrnIk3csMiK5_/view?usp=sharing">Ch1</a></li>
+                                    <li class="product-card" data-name="Ch2"><a href="#">Ch2</a></li>
+                                    <li class="product-card" data-name="Ch3"><a href="#">Ch3</a></li>
+                                 </ul>
+                            </details>
+
+                            <details>
+                                <summary><a href="#">TD </a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="TD1"><a href="https://drive.google.com/file/d/1rzb9_vQJ-al52BSmTtN3AcVVe1mgaVe_/view?usp=sharing">TD1</a></li>
+                                    <li class="product-card" data-name="TD2"><a href="#">TD2</a></li>
+                                    <li class="product-card" data-name="TD3"><a href="#">TD3</a></li>
+                                 </ul>
+                            </details>
+
+                            <details>
+                                <summary><a href="#">Book</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Book"><a href="https://drive.google.com/file/d/1gAK3ian7VlsRhqaj-xG-BHROv7uShzD3/view?usp=sharing">Book </a></li>
+                                    <li class="product-card" data-name="Answer Probability"><a href="https://drive.google.com/file/d/1oPWVdQKrpBzTYew6ZKO2ygKv8qHDDRdh/view?usp=drive_link">Answer</a></li>
+                                    
+                                </ul>
+                            </details>
+                       
+                        </details>
+
+                    </ul>
+
+
+
+
+
+                    <ul>
+                        <details>
+                            <summary><a href="#">Differential</a></summary>
+                            <details>
+                                <summary><a href="#">Cours</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Ch1"><a href="https://drive.google.com/file/d/1sBgDqnlhg0wVDP8mV4K_gkZTRYPNl1_s/view?usp=drive_link">Ch1</a></li>
+                                    <li class="product-card" data-name="Ch2"><a href="#">Ch2</a></li>
+                                    <li class="product-card" data-name="Ch3"><a href="#">Ch3</a></li>
+                                 </ul>
+                            </details>
+
+                            <details>
+                                <summary><a href="#">TD </a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="TD1"><a href="https://drive.google.com/file/d/1XscXHt4_RWdQQdACKekIbETckC6i1eMz/view?usp=drive_link">TD1</a></li>
+                                    <li class="product-card" data-name="TD2"><a href="#">TD2</a></li>
+                                    <li class="product-card" data-name="TD3"><a href="#">TD3</a></li>
+                                 </ul>
+                            </details>
+
+                            <details>
+                                <summary><a href="#">Book</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Book"><a href="#">Book </a></li>
+                                    <li class="product-card" data-name="Answer Probability"><a href="https://drive.google.com/file/d/1if96v6T_W4IoJmJggPXkKRPxMTQFi2nH/view?usp=drive_link">Answer</a></li>
+                                    
+                                </ul>
+                            </details>
+                       
+                        </details>
+
+                    </ul>
+
+
+
+
+                    <ul>
+                        <details>
+                            <summary><a href="#">Calculus III</a></summary>
+                            <details>
+                                <summary><a href="#">Cours</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Ch1"><a href="https://drive.google.com/file/d/1s_N6_mqqao9TrRmreUoZmkAEE1Toh59Z/view?usp=sharing">Ch1</a></li>
+                                    <li class="product-card" data-name="Ch2"><a href="https://drive.google.com/file/d/1y4JBhYcO90z1j6QP1uYMLmeplTUj0kpV/view?usp=sharing">Ch2</a></li>
+                                    <li class="product-card" data-name="Ch3"><a href="https://drive.google.com/file/d/1BRXFj7TqMZAeIISJYFlHGLXc8gLg9Vmy/view?usp=sharing">Ch3</a></li>
+                                 </ul>
+                            </details>
+
+                            <details>
+                                <summary><a href="#">TD </a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="TD1"><a href="https://drive.google.com/file/d/1TIQaVqIGXqpMsQr0XLhnD8X33tpdcDB5/view?usp=sharing">TD1</a></li>
+                                    <li class="product-card" data-name="TD2"><a href="https://drive.google.com/file/d/1xF4cgA9sQLL8m1xBWjuYhol1T_wfvLJE/view?usp=sharing">TD2</a></li>
+                                    <li class="product-card" data-name="TD3"><a href="https://drive.google.com/file/d/1_EyLJEByWAhR2zU-hERuX9IrN_8qlGNo/view?usp=sharing">TD3</a></li>
+                                 </ul>
+                            </details>
+
+                            <details>
+                                <summary><a href="#">Book</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Book"><a href="https://drive.google.com/file/d/1-KzkK2v1Jg3ZXICOlhrvatio466s-mDy/view?usp=sharing">Book </a></li>
+                                    <li class="product-card" data-name="Calculus Assignment"><a href="https://drive.google.com/file/d/1j2rOgJTTyoStM2rFZzoD5OopLNCfV7j5/view?usp=sharing">Cal Assignment 1</a></li>
+                                    
+                                </ul>
+                            </details>
+                       
+                        </details>
+
+                    </ul>
+
+
+                    <ul>
+                        <details>
+                            <summary><a href="#">Linear Algebra</a></summary>
+                            <details>
+                                <summary><a href="#">Cours</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Ch1"><a href="https://drive.google.com/file/d/1invV80aNVHqPDxZWkS7fZWqtkGxFBr3f/view?usp=sharing">Ch1</a></li>
+                                    <li class="product-card" data-name="Ch2"><a href="https://drive.google.com/file/d/1TwQt2DKeLQBI9jP8QHH-iw-7096N2CVD/view?usp=sharing">Ch2</a></li>
+                                    <li class="product-card" data-name="Ch3"><a href="https://drive.google.com/file/d/1kMRQw4f60TQYt70Zlql7eHS8Lptl6Zlb/view?usp=sharing">Ch3</a></li>
+                                 </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">TD </a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="TD1"><a href="https://drive.google.com/file/d/1TQ1_lxehcF2iM1UGHzFjdGWOjBt21tcJ/view?usp=sharing">TD1</a></li>
+                                    <li class="product-card" data-name="TD2"><a href="https://drive.google.com/file/d/1uF_IHGXjI9peFbIqQ7a1gjsi8ub1l8jP/view?usp=sharing">TD2</a></li>
+                                    <li class="product-card" data-name="TD3"><a href="https://drive.google.com/file/d/1sU74dbI6AgKp0601IIiC4k8FETju03Fl/view?usp=sharing">TD3</a></li>
+                                 </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Assignment </a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Linear Assignment 1"><a href="https://drive.google.com/file/d/1uuYhUrNV5Yx14l0b0NQTOupP1t4oENPX/view?usp=sharing">Assignment 1</a></li>
+                                    <li class="product-card" data-name="Linear Assignment 2"><a href="https://drive.google.com/file/d/1HLRiIbsZHvvlcOqtTHe-Zfe0bqwmJplR/view?usp=sharing">Assignment 2</a></li>
+                                    </ul>
+                            </details>
+                        </details>
+
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">French</a></summary>
+                            <ul>
+                                <li class="product-card" data-name="French I2-A2_LaClasse A2 (Cahier d'activités)"><a href="https://drive.google.com/file/d/1SeDz1RLoUxF4e8jpm0sdO5DvUfl8w6pk/view?usp=sharing">I2-A2_LaClasse A2 (Cahier d'activités)</a></li>
+                                <li class="product-card" data-name="French A2 (Méthode de français)"><a href="https://drive.google.com/file/d/1DeZd1CoF9-lkcPoxDaobWH4MH4vaNXUv/view?usp=sharing">I2-A2_LaClasse A2 (Méthode de français)</a></li>
+                            </ul>
+                        </details>
+                    </ul>
+
+                    <ul>
+                        <details>
+                            <summary><a href="#">Electricity</a></summary>
+                            <details>
+                                <summary><a href="#">TP</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Electricity TP1"><a href="https://drive.google.com/file/d/1jYzqAKMsRBgmo1uWPPVojt7Mh_zOa2LX/view?usp=drive_link">TP 1</a></li>
+                                    <li class="product-card" data-name="Electricity TP2 "><a href="">TP 2</a></li>
+                                 </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch1</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1ARwnHFW8OIH-O1ZkyddIli7HXrCYOisE/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/nwKupEuqBmY?si=usAi0sxzGg1WZ6F7">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/TBeoU2zephM?si=cvrKTUj6ct5nP8sH">video part 2📺</a></li>
+                                 </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch2</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1yOQ4S8MwDaIsURxG2PykBbVgGsvjqJ_c/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/4NyehtXgdiQ?si=U6ij2Q3uwMYpHLBu">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/dmYQb0-iK-k?si=jovBbU6nef9al59l">video part 2📺</a></li>
+                                    <li class="product-card" data-name="video part 3"><a href="https://youtu.be/-T1D_TsmLcQ?si=SAW00yDzskG9v22M">video part 3📺</a></li>
+                                    <li class="product-card" data-name="video part 4"><a href="https://youtu.be/Xwe9djDgSwU?si=TueGwKEjer0zBCZM">video part 4📺</a></li>
+                                    <li class="product-card" data-name="video part 5"><a href="https://youtu.be/IXCa0jYnmW8?si=A9Qhs5PkmUuSL5zz">video part 5📺</a></li>
+                                    <li class="product-card" data-name="video part 6"><a href="https://youtu.be/TxeYKD1nmTQ?si=wvGUBSO69mfc6Dba">video part 6📺</a></li>
+                                    <li class="product-card" data-name="video part 7"><a href="https://youtu.be/aoaFhet8al4?si=QPPLMEGWk_BRqJPQ">video part 7📺</a></li>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch3</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1O_bEFtjfYkM4HxJNEOnzrHa_zk3J5ofZ/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video"><a href="https://youtu.be/cPT-NSzUogw?si=jRU2EXTHZ6rrbaFO">video 📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch4</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1zsoKuI8_C0KQ53Yi8hYH6a-MUBhzK2Y2/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video"><a href="https://youtu.be/Bao_9hkSmvE?si=iepWoWY0yF9ixdJS">video 📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch5</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1C6H1sogAvp-DS0CjQVnpGbKLlY1am7e1/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/DjyILkRC4Jk?si=DnKMWGiDXWH_Kr0B">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/wwO049cepag?si=FptkIUUfufluIQBI">video part 2📺</a></li>
+                                    <li class="product-card" data-name="video part 3"><a href="https://youtu.be/wvTtBIgwyzI?si=50uem4Ljldv-T4gE">video part 3📺</a></li>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch6</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1LJIK_ndn41ca00Gn3cJ7Axem3Pcw6qRP/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video"><a href="https://youtu.be/QjgP_JOqZfU?si=gpdaaXbhYAkN5oDi">video 📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch7</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1Lm97d2ENCdrTQb4yAkdPuXcclYOjtkrJ/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video"><a href="https://youtu.be/9pbVqj0jFQ4?si=qhJfC3VHf-hO-c60">video 📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch8</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1l0VdjU-SlL8nEL2upOYfxDs3ipr7dJrj/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/l7hHrOMKzUA?si=j1LzPijnCMght1zw">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/wrktv1xJ_nU?si=e6DQgVEc-I__jk5k">video part 2📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Review Exam</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="Review"><a href="https://drive.google.com/file/d/1Ks7UhPfmbSFizxOowsvU8Ag80tyBK1q6/view?usp=sharing">Review 1</a></li>
+                                    <li class="product-card" data-name="Review"><a href="https://drive.google.com/file/d/1WVwiC5vI7TYbeK2TnnAXhqPE2GHSWcB6/view?usp=drive_link">Review 2</a></li>
+                                    <li class="product-card" data-name="Review"><a href="https://drive.google.com/file/d/1SrFFin80_lTxz46whdmI8GA6qRdcbRWf/view?usp=sharing">Review 3</a></li>
+                                </ul>
+                            </details>
+                        </details>
+
+                    </ul>
+
+
+                    <ul>
+                        <details>
+                            <summary><a href="#">Mechanic II</a></summary>
+                            <details>
+                                <summary><a href="#">Ch1</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1vInC02-LuuWYOzO4kBa8i5ATGGsD1z_w/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/MI6d9dc4AXE?si=iOC31Dceoyzkh3OB">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/GIVfLlg6v8g?si=ek1rv7ibzf52ZgGM">video part 2📺</a></li>
+                                    <li class="product-card" data-name="video part 3"><a href="https://youtu.be/z3VeVkzT9lU?si=XQdzlt2MwqS-TDbN">video part 3📺</a></li>
+                                 </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch2</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1ndxlrFrYYiCuvVCBOas_egGTiQQ6d2Ae/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/Z6sSDfTpGNA?si=PL0lFnBWoQRerqQO">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/JhtdWYtpTYs?si=tM0fSxDKS26_oE86">video part 2📺</a></li>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch3</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/16yVrsRTcMh7yQH9PyVlYJDw9RTAlgQcT/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/clW_7ggw9ls?si=asuFgP38bAoYBsby">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/clW_7ggw9ls?si=EBGPM9Csp-YjTwZs">video part 2📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch4</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/1N6zNy0tdEc6Ft5uBKFcT1zN02e-OgF5D/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video part 1"><a href="https://youtu.be/4PyWFVyzpP8?si=xCUZvmpo6sWssQq2">video part 1📺</a></li>
+                                    <li class="product-card" data-name="video part 2"><a href="https://youtu.be/CrMPxJmVliQ?si=DLHJ9siZZc6Fpg-N">video part 2📺</a></li>
+                                    </ul>
+                            </details>
+                            <details>
+                                <summary><a href="#">Ch5</a></summary>
+                                <ul>
+                                    <li class="product-card" data-name="lesson"><a href="https://drive.google.com/file/d/152Y-8Pltv9rS40GuMwKAYOttwAhCp6TW/view?usp=sharing">lesson</a></li>
+                                    <li class="product-card" data-name="video "><a href="https://youtu.be/ynuRazd1TwI?si=6BcVgmIUVHX1Epb7">video 📺</a></li>
+                                </ul>
+                            </details>
+                            
+                        </details>
+                    </ul>
+                </details>
+
+
+
+
+                <details>
+                    <summary>I3</summary>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GIC</a></summary>
+                                <details>
+                                    <summary><a href="#">DataBase</a></summary>
+
+                                        <details>
+                                            <summary><a href="#">Lessons</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="lesson 1"><a href="https://drive.google.com/file/d/1QfT2w-ymqwerYrcOXENMoYTjvNdLmsN2/view?usp=sharing">1.Introduction</a></li>
+                                                    <li class="product-card" data-name="lesson 2"><a href="https://drive.google.com/file/d/1Y49Nlai2eJOIvCx2mKpdqXnYkJIlKX3D/view?usp=sharing">2. Introduction to ER</a></li>
+                                                    <li class="product-card" data-name="lesson 3"><a href="https://drive.google.com/file/d/1RHrklx0oXwTWZ7u1vrQOJCZC7flpnDCR/view?usp=sharing">3. ER Diagram</a></li>
+                                                    <li class="product-card" data-name="lesson 4"><a href="https://drive.google.com/file/d/1TYLet88nlTySwZ8Jp_B3lrokidNHOhTC/view?usp=sharing">4. ER to Relational</a></li>
+                                                    <li class="product-card" data-name="lesson 5"><a href="https://drive.google.com/file/d/1ZC6kCS2U_8H3AmrUn9uYegu42zVWYo5i/view?usp=sharing">5. Relational Data Model</a></li>
+                                                    <li class="product-card" data-name="lesson 6"><a href="https://drive.google.com/file/d/19t_4SvTIcurzJkPV_4gXa6SNhjDIxPRD/view?usp=sharing">6. RDM COnstraint</a></li>
+                                                    <li class="product-card" data-name="lesson 7"><a href="https://drive.google.com/file/d/122Lki-GkQYq4RsbQ0rL9boa3q02R1eg9/view?usp=drive_link">7. FD</a></li>
+                                                    <li class="product-card" data-name="lesson 8"><a href="https://drive.google.com/file/d/1bDY27AMJZ0jUKMNUusFdoy7zsYE2CEyZ/view?usp=drive_link">8. Normal Form</a></li>
+                                                    <li class="product-card" data-name="lesson 9"><a href="https://drive.google.com/file/d/1RNykgH5lB6gI20cXk90CnHdWSdhe0Amj/view?usp=drive_link">9. Normalization</a></li>
+
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">TP</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="TP1"><a href="https://drive.google.com/file/d/1WJR9VsiUbbc8gMQKXhONpAm1dCd8KraL/view?usp=drive_link">TP01</a></li>
+                                                    <li class="product-card" data-name="TP2"><a href="https://drive.google.com/file/d/1hgQgmdxk8Xbl8GSeFqhmKjXJq1o1Vuhs/view?usp=drive_link">TP02</a></li>
+                                                    <li class="product-card" data-name="TP3"><a href="https://drive.google.com/file/d/1hpugeqop6tf3I60GZK52Ujwl7PIui1eq/view?usp=drive_link">TP03</a></li>
+                                                    <li class="product-card" data-name="TP4"><a href="https://drive.google.com/file/d/13-7pIxqAqMqTz5B8K9yebLTs0PBZgUjN/view?usp=drive_link">TP04</a></li>
+                                                    <li class="product-card" data-name="TP5"><a href="https://drive.google.com/file/d/1RVWZI3_OxSE0TG18hepwsfGEXUyZfGsc/view?usp=drive_link">TP05</a></li>
+                                                   
+
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">DecretMathematics</a></summary>
+                                        <details>
+                                            <summary><a href="#">Lesson</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="lesson1"><a href="https://drive.google.com/file/d/1IfMAfU8uP_fqSMFPwxhMEZF048UZvb3S/view?usp=drive_link">Chapter I</a></li>
+                                                    <li class="product-card" data-name="lesson2"><a href="https://drive.google.com/file/d/1qTeiyawhPosxVo4HMB9HNgn_iiaHhdNG/view?usp=drive_link">Chapter II</a></li>
+                                                    <li class="product-card" data-name="lesson3"><a href="https://drive.google.com/file/d/1Vp9bCSwCCt_LU16c5a6eq8uMuqYa9GbZ/view?usp=drive_link">Chapter III</a></li>
+                                                    <li class="product-card" data-name="lesson4"><a href="https://drive.google.com/file/d/13aWsxPnZCVpWxN1q39k72gKKclWHEdqa/view?usp=sharing">Chapter IV</a></li>
+                                                    <li class="product-card" data-name="lesson5"><a href="https://drive.google.com/file/d/1W6RUK3prLXX4NvTbXxbgXYUo41p1c8dJ/view?usp=drive_link">Chapter V</a></li>
+                                                    <li class="product-card" data-name="lesson6"><a href="https://drive.google.com/file/d/1kCbNUxpQCZBkrdJr5qkEmlJR-5nhkfIG/view?usp=drive_link">Chapter VI</a></li>
+                                                    <li class="product-card" data-name="lesson7"><a href="https://drive.google.com/file/d/11Q2HzbXk_xd2DTo5neBA-H6dkajOmiZB/view?usp=drive_link">Chapter VII</a></li>
+                                                    
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Homework</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="homework"><a href="https://drive.google.com/file/d/14L_5ihUcw1RGekgfiUNCZgysqgUuSzF_/view?usp=drive_link">Homework</a></li>
+                                                </ul>
+                                        </details>
+                                        
+                                </details>
+                                <details>
+                                    <summary><a href="#">Research Methodology</a></summary>
+                                        <details>
+                                            <summary><a href="#">Paper</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="paper1"><a href="https://drive.google.com/file/d/1mg2B3NlibhNVTPbP2nqkvdhGK15K8wKt/view?usp=drive_link">Paper1</a></li>
+                                                    <li class="product-card" data-name="paper2"><a href="https://drive.google.com/file/d/1e4y86jwrD3zzpk6eNDPoFFNtXwIadoS4/view?usp=drive_link">Paper2</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Midtherm Preview</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="midterm preview"><a href="https://drive.google.com/file/d/1_FQdWtb7bl2z6HfRQGz0HhF65-e0nfC9/view?usp=drive_link">Midterm Preview</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Final Research</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="final research"><a href="https://drive.google.com/file/d/1HV6bbtUuIUUZhkjYewO4V7ONIz4NtOas/view?usp=drive_link">Final Research</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">OOP</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="week1"><a href="https://drive.google.com/file/d/1Az3PwjhjJii09gibuaSwH8ThUbfHHWX9/view?usp=drive_link">Week 01</a></li>
+                                                    <li class="product-card" data-name="week2"><a href="https://drive.google.com/file/d/1MlLpF6XWnKnHy_TokwBYrPHioaldPftJ/view?usp=drive_link">Week 02</a></li>
+                                                    <li class="product-card" data-name="week3"><a href="https://drive.google.com/file/d/1goVbF9N0sr5nCW0kPsOStMxkcQTGm_Lb/view?usp=drive_link">Week 03</a></li>
+                                                    <li class="product-card" data-name="week4"><a href="https://drive.google.com/file/d/1UlmCkH0Xb-x1_dNbcZC-cs_UOe3VAmcb/view?usp=drive_link">Week 04</a></li>
+                                                    <li class="product-card" data-name="week5"><a href="https://drive.google.com/file/d/1BRHjWaqza8RgPifC366utMU5yjMsOxJq/view?usp=drive_link">Week 05</a></li>
+                                                    <li class="product-card" data-name="week6"><a href="https://drive.google.com/file/d/1Ho18v9eEivNdWOsGzRiI4Xy_DjX0C4ZK/view?usp=drive_link">Week 06</a></li>
+                                                    <li class="product-card" data-name="week7"><a href="https://drive.google.com/file/d/18WfoiJCLCGwzJC3Tu-Wp6DHibBSgGYSl/view?usp=drive_link">Week 07</a></li>
+                                                    <li class="product-card" data-name="week8"><a href="https://drive.google.com/file/d/1TSSYV0a0vp0B0KnGrG-Gc9Ro7uAuvBQU/view?usp=drive_link">Week 08</a></li>
+                                                    
+
+
+
+                                                </ul>
+                                        </details>
+                                </details>
+
+
+
+                                <details>
+                                    <summary><a href="#">Statistics</a></summary>
+                                        <details>
+                                            <summary><a href="#">Cours</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="chapter1"><a href="https://drive.google.com/file/d/1K8_UghDIJHQy1RebQ_29aL8XInjmOqSO/view?usp=drive_link">Chapter 1</a></li>
+                                                    <li class="product-card" data-name="chapter2"><a href="https://drive.google.com/file/d/1stmQy7IyfGt-WMx07lHjuS2oGVQ1Hhiq/view?usp=drive_link">Chapter 2</a></li>
+                                                    <li class="product-card" data-name="chapter3"><a href="https://drive.google.com/file/d/1DE4AHa6Fqtm8WsKUS5zor-DILGEDTmLl/view?usp=drive_link">Chapter 3</a></li>
+                                                    <li class="product-card" data-name="chapter4"><a href="https://drive.google.com/file/d/1biyncU14TL2rSmV8RxuztgngjG43C4tF/view?usp=drive_link">Chapter 4</a></li>
+                                                    <li class="product-card" data-name="chapter5"><a href="https://drive.google.com/file/d/1P6ySKhz8Px-TCGqiyfuiT33RF9rE3Ola/view?usp=drive_link">Chapter 5</a></li>
+                                                    <li class="product-card" data-name="chapter6"><a href="https://drive.google.com/file/d/1nKUxyHfhg0J1ppoNMTM9E9RIu0e6AzTj/view?usp=drive_link">Chapter 6</a></li>
+                                               
+                                                    
+                                                   
+
+
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">TD</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="TD1"><a href="https://drive.google.com/file/d/1Bjw30_qTB5uPBJZgeGPwG98P_Lfx9acj/view?usp=drive_link">TD 1</a></li>
+                                                    <li class="product-card" data-name="TD2"><a href="https://drive.google.com/file/d/1jjj1bKSBmLrwmC-N7UQ-gD6rLOedo6Sp/view?usp=drive_link">TD 2</a></li>
+                                                    <li class="product-card" data-name="TD3"><a href="https://drive.google.com/file/d/1TomlK2usVrDAIvMFRVEcHsHVx2TWW9O7/view?usp=drive_link">TD 3</a></li>
+                                                    <li class="product-card" data-name="TD4"><a href="https://drive.google.com/file/d/1v-xYulGyu1WAa2PnpzWKHoksO7jbegS7/view?usp=drive_link">TD 4</a></li>
+                                                    <li class="product-card" data-name="TD5"><a href="https://drive.google.com/file/d/1iMDWhP05h1-o1bsXgkTB23BO1V9S0gvf/view?usp=drive_link">TD 5</a></li>
+                                                    <li class="product-card" data-name="TD6"><a href="https://drive.google.com/file/d/1vEVmY09GycV_wA6W5a0sKfOQy8WcjQ2g/view?usp=drive_link">TD 6</a></li>
+                                                   
+
+
+                                                </ul>
+                                        </details>
+                                </details>
+
+
+
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GIR</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">AMS</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul><ul>
+                        <details>
+                            <summary><a href="#">GIM</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul><ul>
+                        <details>
+                            <summary><a href="#">GEE</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul><ul>
+                        <details>
+                            <summary><a href="#">GAR</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GTI</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GIC</a></summary>
+                                <details>
+                                    <summary><a href="#">DataBase</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GRU</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GCA</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                </details>    
+                <details>
+                    <summary>I4</summary>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GIC</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GIR</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">AMS</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul><ul>
+                        <details>
+                            <summary><a href="#">GIM</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul><ul>
+                        <details>
+                            <summary><a href="#">GEE</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul><ul>
+                        <details>
+                            <summary><a href="#">GAR</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GTI</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GIC</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GRU</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                    <ul>
+                        <details>
+                            <summary><a href="#">GCA</a></summary>
+                                <details>
+                                    <summary><a href="#">Subject 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 2</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 3</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                                <details>
+                                    <summary><a href="#">Subject 4</a></summary>
+                                        <details>
+                                            <summary><a href="#">Assignment</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Slide</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">anything</a></summary>
+                                                <ul>
+                                                    <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                </ul>
+                                        </details>
+                                </details>
+                        </details>
+                    </ul>
+                </details>    
+                <details>
+                    <summary>I5</summary>
+                    <ul>
+                        <li class="product-card" data-name="Coming soon"><a href="https://t.me/Jingpophai">Coming soon</a></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>sharing knowledge</summary>
+                    <ul>
+                       <details>
+                        <summary><a href="#">Years(DP)</a></summary>
+                            <details>
+                                <summary><a href="#">name 1</a></summary>
+                                        <details>
+                                            <summary><a href="#">Subject 1</a></summary>
+                                                <details>
+                                                    <summary><a href="#">anything</a></summary>
+                                                        <ul>
+                                                            <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                        </ul>
+                                                </details>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Subject 2</a></summary>
+                                                <details>
+                                                    <summary><a href="#">anything</a></summary>
+                                                        <ul>
+                                                            <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                        </ul>
+                                                </details>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Subject 3</a></summary>
+                                                <details>
+                                                    <summary><a href="#">anything</a></summary>
+                                                        <ul>
+                                                            <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                        </ul>
+                                      
+                                                    </details>
+                                        </details>
+                                        <details>
+                                            <summary><a href="#">Subject 4</a></summary>
+                                                <details>
+                                                    <summary><a href="#">anything</a></summary>
+                                                        <ul>
+                                                            <li class="product-card" data-name="coming soon"><a href="https://t.me/Jingpophai">coming soon</a></li>
+                                                        </ul>
+                                                </details>
+                                        </details>
+                                        
+                                        
+                            </details>
+                        </details>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Game</summary>
+                    <ul>
+                        <li class="product-card" data-name="Game snake"><a href="https://gamesnake-byonlinecourse.netlify.app/">Game snake</a></li>
+                        <li class="product-card" data-name="Game Zombie"><a href="https://gamezombie-byonlinecourse.netlify.app/">Game Zombie</a></li>
+                        <li class="product-card" data-name="rock-paper-scissor"><a href="https://rock-paper-scissor-byonlinecourse.netlify.app/">rock-paper-scissor</a></li>
+                    </ul>
+                </details>
+            </div>
+        </main>
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>Contact Information:</p>
+            <p>Phone☎️: +85516441653</p>
+            <p>Telegram📲: <a href="https://t.me/Jingpophai">@Jingpophai</a></p>
+            <p>Email📩: <a href="mailto:phaijingpo016441653@gmail.com">phaijingpo016441653@gmail.com</a></p>
+        </footer>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

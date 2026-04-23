@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Course Portal</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="/assets/logo school.png" type="image/png">
+</head>
+<body class="auth-page">
+    <main class="auth-shell">
+        <section class="auth-panel">
+            <div class="auth-brand">
+                <div class="brand-row">
+                    <img src="/assets/itc.png" alt="Institute of Technology of Cambodia logo" class="brand-mark itc-mark">
+                    <img src="/assets/logo dormitory.png" alt="Dormitory free for learn logo" class="brand-mark dormitory-mark">
+                </div>
+                <p class="eyebrow">Institute de Technologie du Cambodge</p>
+                <h1>School Course Portal</h1>
+                <p class="subtitle">Register a new account or sign in to access course materials, assignments, and shared resources.</p>
+                <ul class="auth-highlights">
+                    <li>Secure password hashing</li>
+                    <li>Database-backed accounts and sessions</li>
+                    <li>Protected dashboard content</li>
+                </ul>
+                <p id="auth-message" class="auth-message" aria-live="polite"></p>
+            </div>
+
+            <div class="auth-grid">
+                <form id="login-form" class="card-form">
+                    <h2>Login</h2>
+                    <label for="login-username">Username</label>
+                    <input type="text" id="login-username" name="username" placeholder="Enter your username" required>
+
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
+
+                    <button type="submit" class="btn">Login</button>
+                    <p class="form-note">Forgot password? <a href="https://t.me/Jingpophai">Contact me on Telegram</a>.</p>
+                </form>
+
+                <form id="register-form" class="card-form">
+                    <h2>Register</h2>
+                    <label for="register-name">Full name</label>
+                    <input type="text" id="register-name" name="name" placeholder="Your full name" required>
+
+                    <label for="register-username">Username</label>
+                    <input type="text" id="register-username" name="username" placeholder="Choose a username" required>
+
+                    <label for="register-password">Password</label>
+                    <input type="password" id="register-password" name="password" placeholder="Create a password" required>
+
+                    <label for="register-confirm-password">Confirm password</label>
+                    <input type="password" id="register-confirm-password" name="confirmPassword" placeholder="Repeat your password" required>
+
+                    <button type="submit" class="btn btn-secondary">Create account</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>

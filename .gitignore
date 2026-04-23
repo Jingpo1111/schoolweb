@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/
+.qodo/
+npm-debug.log*
+package-lock.json.bak
